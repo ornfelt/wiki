@@ -4,7 +4,7 @@ Once you've compiled the server core, there are still a number of steps you must
 
 ## 1. Extracting data from the client
 
-The server requires a large amount of data from the client in order to operate. That includes DBC, Map, VMap and MMap files. To extract all that data you need extractors. You can compile them yourself by selecting the `_USE_EXTRACTORS_` option when configuring in CMake. Alternatively you can download all the required files from the internet.
+The server requires a large amount of data from the client in order to operate. That includes DBC, Map, VMap and MMap files. To extract all that data you need extractors. You can compile them yourself by enabling the `BUILD_EXTRACTORS` option when configuring in CMake. Alternatively you can download all the required files from the internet.
 
 ### Extracting data from client on Windows
 
